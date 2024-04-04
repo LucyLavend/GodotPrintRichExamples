@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1712232810
+::res://::1712237113
 GenerateAnimatedImage.gd::GDScript::-1::1712232805::0::1::::<>Node<>::
 icon.svg::CompressedTexture2D::7720837522556259880::1699027020::1699027027::1::::<><>::
-main.gd::GDScript::-1::1712232805::0::1::::<>Node<>::
-main.tscn::PackedScene::3739543373177655088::1712232804::0::1::::<><>::res://main.gd<>uid://n5ghjqp1ncv::::res://Fonts/Sono/Sono-Regular.ttf<>res://GenerateAnimatedImage.gd<>uid://dcxlou52rwaxv::::res://Images/funny_cat.tres
+main.gd::GDScript::-1::1712235795::0::1::::<>Node<>::
+main.tscn::PackedScene::3739543373177655088::1712236225::0::1::::<><>::res://main.gd<>uid://n5ghjqp1ncv::::res://Fonts/Sono/Sono-Regular.ttf<>res://GenerateAnimatedImage.gd<>uid://dcxlou52rwaxv::::res://Images/funny_cat.tres
+README.md::TextFile::-1::1712236498::0::1::::<><>::
 ::res://Fonts/::1706710800
 MorrisRomanBlack.ttf::FontFile::5337497847332276453::1701280973::1701280977::1::::<><>::
 ::res://Fonts/GothicLeaf/::1706710787
@@ -61,3 +62,5 @@ frame_33_delay-0.04s.png::CompressedTexture2D::3188346878434145635::1709583324::
 frame_34_delay-0.04s.png::CompressedTexture2D::2852659369343665530::1709583324::1709583328::1::::<><>::
 frame_35_delay-0.04s.png::CompressedTexture2D::8250429092580952755::1709583324::1709583328::1::::<><>::
 frame_36_delay-0.03s.png::CompressedTexture2D::2213505235423717510::1709583324::1709583328::1::::<><>::
+::res://Screenshots/::1712237222
+ExamplesPrintRich.png::CompressedTexture2D::1524387038022254449::1712237223::1712237471::1::::<><>::

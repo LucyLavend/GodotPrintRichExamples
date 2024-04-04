@@ -78,6 +78,14 @@ func _ready():
 	print("")
 	print_rich("[rainbow freq=1.0 sat=0.8 val=0.8]WOW good programming work!! Your janky code actually works somehow lol[/rainbow]")
 
+	#fade
+	await button_pressed
+	_set_example_text("[fade]text[/fade]")
+	print("")
+	print_rich("[fade start=20 length=24][color=ffde66]⬤ scene/resources/packed_scene.cpp:717 - Condition !common_parent is true[/color][/fade]")
+	print_rich("Unlock more detailed error messages and more with [b]Godot [color=DODGER_BLUE]Premium[/color][/b]! ")
+	print_rich("Start your 14 day free trial now at [u][color=cornflowerblue][url]godotengine.org[/url][/color][/u]!")
+
 	#image
 	await button_pressed
 	_set_example_text("[img]res://image.png[/img]")
@@ -89,14 +97,6 @@ func _ready():
 	_set_example_text("[img]res://animated_image.tres[/img] (AnimatedTexture)")
 	print("")
 	print_rich("[img=160x160]res://Images/funny_cat.tres[/img]")
-
-	#fade
-	await button_pressed
-	_set_example_text("[rainbow]text[/rainbow]")
-	print("")
-	print_rich("[fade start=20 length=24][color=ffde66]⬤ scene/resources/packed_scene.cpp:717 - Condition !common_parent is true[/color][/fade]")
-	print_rich("Unlock more detailed error messages and more with [b]Godot [color=DODGER_BLUE]Premium[/color][/b]! ")
-	print_rich("Start your 14 day free trial now at [u][color=cornflowerblue][url]godotengine.org[/url][/color][/u]!")
 
 
 	#-----------------------------------
