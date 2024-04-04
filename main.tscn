@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://btjpy6l6dy3my"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_d777p"]
+[ext_resource type="FontFile" uid="uid://n5ghjqp1ncv" path="res://Fonts/Sono/Sono-Regular.ttf" id="2_hcygg"]
+[ext_resource type="Script" path="res://GenerateAnimatedImage.gd" id="3_8oepg"]
+[ext_resource type="Texture2D" uid="uid://dcxlou52rwaxv" path="res://Images/funny_cat.tres" id="4_g78a7"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_d777p")
+
+[node name="ExampleLabel" type="RichTextLabel" parent="."]
+clip_contents = false
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = -44.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/default_color = Color(0.423529, 0.423529, 0.423529, 1)
+theme_override_fonts/normal_font = ExtResource("2_hcygg")
+theme_override_font_sizes/normal_font_size = 20
+text = "use the spacebar to show print messages"
+
+[node name="AnimatedImageGenerator" type="Node" parent="."]
+script = ExtResource("3_8oepg")
+images_directory = "res://Images/CatDancing"
+output = ExtResource("4_g78a7")

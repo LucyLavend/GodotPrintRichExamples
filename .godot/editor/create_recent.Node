@@ -1,0 +1,12 @@
+Node
+Sprite2D
+SubViewport
+ColorRect
+WorldEnvironment
+RichTextLabel
+Label
+Camera2D
+Node2D
+AnimationPlayer
+Camera3D
+Node3D
